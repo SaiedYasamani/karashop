@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:kara_test/pages/entrance.dart';
-import 'package:kara_test/pages/home.dart';
 import 'package:kara_test/providers/home_provider.dart';
 import 'package:kara_test/providers/login_provider.dart';
 import 'package:provider/provider.dart';
@@ -29,7 +28,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.white),
         useMaterial3: true,
       ),
-      home: const Home(),
+      home: const Entrance(),
     );
   }
 }
